@@ -1,0 +1,6 @@
+Feb 21, 2016 4:31:53 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/Checkout.class' is missing
+Feb 21, 2016 4:31:53 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 21, 2016 4:31:54 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed

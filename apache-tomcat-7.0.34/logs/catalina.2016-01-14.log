@@ -1,0 +1,104 @@
+Jan 14, 2016 6:54:20 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Jan 14, 2016 6:54:21 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Jan 14, 2016 6:54:21 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 14, 2016 6:54:21 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 805 ms
+Jan 14, 2016 6:54:21 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 14, 2016 6:54:21 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Jan 14, 2016 6:54:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Jan 14, 2016 6:54:21 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [215] milliseconds.
+Jan 14, 2016 6:54:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Jan 14, 2016 6:54:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Jan 14, 2016 6:54:21 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Jan 14, 2016 6:54:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Jan 14, 2016 6:54:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Jan 14, 2016 6:54:22 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Jan 14, 2016 6:54:22 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 14, 2016 6:54:22 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1057 ms
+Jan 14, 2016 7:00:43 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:00:43 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:03:24 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:03:24 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:05:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:05:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:09:06 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:09:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:13:37 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:13:38 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:14:48 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:14:49 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:22:00 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:22:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:28:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:28:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:31:03 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:31:04 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 7:31:54 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Jan 14, 2016 7:31:54 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Jan 14, 2016 8:50:57 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Jan 14, 2016 8:50:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Jan 14, 2016 8:50:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jan 14, 2016 8:50:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 783 ms
+Jan 14, 2016 8:50:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 14, 2016 8:50:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Jan 14, 2016 8:50:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Jan 14, 2016 8:50:58 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [206] milliseconds.
+Jan 14, 2016 8:50:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Jan 14, 2016 8:50:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Jan 14, 2016 8:50:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Jan 14, 2016 8:50:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Jan 14, 2016 8:50:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Jan 14, 2016 8:50:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Jan 14, 2016 8:50:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jan 14, 2016 8:50:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 989 ms

@@ -1,0 +1,1454 @@
+Mar 07, 2016 2:08:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 2:08:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 2:08:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 2:08:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1186 ms
+Mar 07, 2016 2:08:08 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 2:08:08 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 2:08:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 2:08:09 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [257] milliseconds.
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 2:08:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 2:08:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 2:08:11 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 2:08:11 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 2:08:11 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2830 ms
+Mar 07, 2016 2:32:08 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 2:32:09 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 2:40:51 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 2:40:52 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 2:55:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 2:55:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 4:04:29 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 4:04:29 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 4:18:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 4:18:24 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 4:26:06 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 07, 2016 4:26:06 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 4:26:07 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 46 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 46; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1271)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1440)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:301)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:26:07 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 46; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1271)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1440)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:301)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:26:07 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 46 column 5
+Mar 07, 2016 4:26:07 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 4:26:07 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 4:26:07 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 4:26:07 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 4:28:03 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 4:28:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:28:03 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:28:03 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 918 ms
+Mar 07, 2016 4:28:03 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 4:28:03 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 4:28:03 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 4:28:04 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [294] milliseconds.
+Mar 07, 2016 4:28:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 4:28:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 4:28:05 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 46 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 46; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 46; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 46 column 5
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 4:28:05 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 4:28:05 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 4:28:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 4:28:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 4:28:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 4:28:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 4:28:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 4:28:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 4:28:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:28:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:28:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2858 ms
+Mar 07, 2016 4:28:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 4:28:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:28:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:28:45 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 680 ms
+Mar 07, 2016 4:28:45 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 4:28:45 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 4:28:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 4:28:46 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [287] milliseconds.
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 4:28:46 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 46 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 46; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 46; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 46 column 5
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 4:28:46 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 4:28:46 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 4:28:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 4:28:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 4:28:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 4:28:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 4:28:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:28:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:28:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2912 ms
+Mar 07, 2016 4:29:48 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 07, 2016 4:53:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 4:53:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:53:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:53:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 813 ms
+Mar 07, 2016 4:53:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 4:53:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 4:53:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 4:53:08 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [220] milliseconds.
+Mar 07, 2016 4:53:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 4:53:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 4:53:09 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 42 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 42 column 5
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 4:53:09 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 4:53:09 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 4:53:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 4:53:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 4:53:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 4:53:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 4:53:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 4:53:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 4:53:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:53:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:53:10 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2667 ms
+Mar 07, 2016 4:55:05 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 4:55:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:55:05 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:55:05 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 592 ms
+Mar 07, 2016 4:55:05 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 4:55:05 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 4:55:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 4:55:06 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [225] milliseconds.
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 4:55:06 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 42 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 42 column 5
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 4:55:06 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 4:55:06 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 4:55:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 4:55:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 4:55:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 4:55:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 4:55:08 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 4:55:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2350 ms
+Mar 07, 2016 5:17:58 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 5:17:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:17:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:17:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 630 ms
+Mar 07, 2016 5:17:59 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 5:17:59 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 5:17:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 5:18:00 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [230] milliseconds.
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 5:18:00 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 42 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 42 column 5
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 5:18:00 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 5:18:00 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 5:18:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 5:18:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 5:18:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 5:18:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 5:18:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 5:18:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 5:18:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 5:18:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:18:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:18:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2405 ms
+Mar 07, 2016 5:20:33 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 5:20:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:20:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:20:33 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 635 ms
+Mar 07, 2016 5:20:33 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 5:20:33 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 5:20:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 5:20:34 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [252] milliseconds.
+Mar 07, 2016 5:20:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 5:20:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 5:20:35 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 42 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1114)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1673)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 42 column 5
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 5:20:35 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 5:20:35 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 5:20:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 5:20:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 5:20:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 5:20:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 5:20:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 5:20:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:20:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:20:36 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2549 ms
+Mar 07, 2016 5:22:04 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 5:22:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:22:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:22:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 584 ms
+Mar 07, 2016 5:22:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 5:22:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 5:22:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 5:22:05 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [195] milliseconds.
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 5:22:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 5:22:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:22:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:22:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2259 ms
+Mar 07, 2016 5:22:38 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files\Colligo Networks\Colligo\;.
+Mar 07, 2016 5:22:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:22:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:22:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 588 ms
+Mar 07, 2016 5:22:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 07, 2016 5:22:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 07, 2016 5:22:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 07, 2016 5:22:39 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [205] milliseconds.
+Mar 07, 2016 5:22:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 07, 2016 5:22:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 07, 2016 5:22:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 07, 2016 5:22:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 07, 2016 5:22:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 07, 2016 5:22:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 07, 2016 5:22:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 07, 2016 5:22:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 07, 2016 5:22:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2324 ms
+Mar 07, 2016 5:25:12 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 07, 2016 5:25:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 5:25:12 PM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 42 column 5: The markup in the document following the root element must be well-formed.
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1271)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1440)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:301)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 5:25:12 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Parse error in application web.xml file at jndi:/localhost/csj/WEB-INF/web.xml
+org.xml.sax.SAXParseException; systemId: jndi:/localhost/csj/WEB-INF/web.xml; lineNumber: 42; columnNumber: 5; The markup in the document following the root element must be well-formed.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1397)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:648)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1537)
+	at org.apache.catalina.startup.ContextConfig.parseWebXml(ContextConfig.java:1878)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1259)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3920)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1271)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1440)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:301)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1374)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1530)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1540)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1519)
+	at java.lang.Thread.run(Thread.java:745)
+
+Mar 07, 2016 5:25:12 PM org.apache.catalina.startup.ContextConfig parseWebXml
+SEVERE: Occurred at line 42 column 5
+Mar 07, 2016 5:25:12 PM org.apache.catalina.startup.ContextConfig configureStart
+SEVERE: Marking this application unavailable due to previous error(s)
+Mar 07, 2016 5:25:12 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error getConfigured
+Mar 07, 2016 5:25:12 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/csj] startup failed due to previous errors
+Mar 07, 2016 5:25:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 5:25:53 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 07, 2016 5:28:44 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 07, 2016 5:28:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 5:28:45 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 5:31:56 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 07, 2016 5:31:56 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 5:31:57 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 07, 2016 5:43:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 07, 2016 5:43:22 PM org.apache.catalina.core.StandardWrapper unload
+INFO: Waiting for 1 instance(s) to be deallocated
+Mar 07, 2016 5:43:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed

@@ -1,0 +1,26 @@
+Mar 04, 2016 5:08:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 04, 2016 5:08:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 04, 2016 5:08:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 04, 2016 5:08:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 04, 2016 5:08:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 04, 2016 5:08:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 04, 2016 5:08:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 04, 2016 5:38:59 PM org.apache.catalina.loader.WebappClassLoader modified
+SEVERE:     Resource '/WEB-INF/classes/servlet/CartController.class' is missing
+Mar 04, 2016 5:38:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 04, 2016 5:38:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 04, 2016 6:38:15 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 04, 2016 6:38:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 04, 2016 6:38:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed

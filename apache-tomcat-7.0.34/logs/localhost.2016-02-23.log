@@ -1,0 +1,200 @@
+Feb 23, 2016 5:10:56 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 35 in the jsp file: /Phones.jsp
+CatalogItem cannot be resolved
+32:  <table cellspacing="5" cellpadding="5" border="1">
+33:         <tr>
+34:             <td align="right">First name:</td>
+35:             <td><%= CatalogItem.getItemID() %></td>
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+
+
+An error occurred at line: 39 in the jsp file: /Phones.jsp
+user cannot be resolved
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+39:             <td><%= user.getLastName() %></td>
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+
+
+An error occurred at line: 43 in the jsp file: /Phones.jsp
+user cannot be resolved
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+43:             <td><%= user.getEmailAddress() %></td>
+44:         </tr>
+45:     </table>
+46: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 35 in the jsp file: /Phones.jsp
+CatalogItem cannot be resolved
+32:  <table cellspacing="5" cellpadding="5" border="1">
+33:         <tr>
+34:             <td align="right">First name:</td>
+35:             <td><%= CatalogItem.getItemID() %></td>
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+
+
+An error occurred at line: 39 in the jsp file: /Phones.jsp
+user cannot be resolved
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+39:             <td><%= user.getLastName() %></td>
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+
+
+An error occurred at line: 43 in the jsp file: /Phones.jsp
+user cannot be resolved
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+43:             <td><%= user.getEmailAddress() %></td>
+44:         </tr>
+45:     </table>
+46: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 23, 2016 5:11:00 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 35 in the jsp file: /Phones.jsp
+CatalogItem cannot be resolved
+32:  <table cellspacing="5" cellpadding="5" border="1">
+33:         <tr>
+34:             <td align="right">First name:</td>
+35:             <td><%= CatalogItem.getItemID() %></td>
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+
+
+An error occurred at line: 39 in the jsp file: /Phones.jsp
+user cannot be resolved
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+39:             <td><%= user.getLastName() %></td>
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+
+
+An error occurred at line: 43 in the jsp file: /Phones.jsp
+user cannot be resolved
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+43:             <td><%= user.getEmailAddress() %></td>
+44:         </tr>
+45:     </table>
+46: 
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 35 in the jsp file: /Phones.jsp
+CatalogItem cannot be resolved
+32:  <table cellspacing="5" cellpadding="5" border="1">
+33:         <tr>
+34:             <td align="right">First name:</td>
+35:             <td><%= CatalogItem.getItemID() %></td>
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+
+
+An error occurred at line: 39 in the jsp file: /Phones.jsp
+user cannot be resolved
+36:         </tr>
+37:         <tr>
+38:             <td align="right">Last name:</td>
+39:             <td><%= user.getLastName() %></td>
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+
+
+An error occurred at line: 43 in the jsp file: /Phones.jsp
+user cannot be resolved
+40:         </tr>
+41:         <tr>
+42:             <td align="right">Email address:</td>
+43:             <td><%= user.getEmailAddress() %></td>
+44:         </tr>
+45:     </table>
+46: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+

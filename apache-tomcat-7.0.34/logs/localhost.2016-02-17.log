@@ -1,0 +1,922 @@
+Feb 17, 2016 5:09:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 17, 2016 5:09:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 17, 2016 5:09:31 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@76959fce')
+Feb 17, 2016 5:25:53 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP] with root cause
+java.io.IOException: tmpFile.renameTo(classFile) failed
+	at org.apache.jasper.compiler.SmapUtil$SDEInstaller.install(SmapUtil.java:204)
+	at org.apache.jasper.compiler.SmapUtil.installSmap(SmapUtil.java:163)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:483)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:33:54 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:34:50 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:05 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:06 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:139)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:07 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:139)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:08 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:139)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:09 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:14 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:15 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:139)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:35:16 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:139)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:37:20 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:37:21 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp] with root cause
+java.lang.ClassNotFoundException: org.apache.jsp.jsp_002dexamples.display_005femail_005fentry_jsp
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:139)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 17, 2016 7:37:24 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/csj] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:] with root cause
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 23 in the jsp file: /jsp-examples/display_email_entry.jsp
+User cannot be resolved to a type
+20:         String path = sc.getRealPath("/WEB-INF/EmailList.txt");
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+
+
+An error occurred at line: 24 in the jsp file: /jsp-examples/display_email_entry.jsp
+UserIO cannot be resolved
+21: 
+22:         // use regular Java objects
+23:         User user = new User(firstName, lastName, emailAddress);
+24:         UserIO.add(user, path);
+25:     %>
+26: 
+27:     <h1>Thanks for joining our email list</h1>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:331)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:468)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:378)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:353)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:340)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:646)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+

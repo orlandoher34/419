@@ -1,0 +1,176 @@
+Feb 08, 2016 6:26:15 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;.
+Feb 08, 2016 6:26:16 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Feb 08, 2016 6:26:16 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 08, 2016 6:26:16 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1550 ms
+Feb 08, 2016 6:26:16 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 08, 2016 6:26:16 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Feb 08, 2016 6:26:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Feb 08, 2016 6:26:17 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [359] milliseconds.
+Feb 08, 2016 6:26:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Feb 08, 2016 6:26:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Feb 08, 2016 6:26:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Feb 08, 2016 6:26:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Feb 08, 2016 6:26:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Feb 08, 2016 6:26:18 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Feb 08, 2016 6:26:18 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 08, 2016 6:26:18 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1624 ms
+Feb 08, 2016 6:53:24 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 6:53:24 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 6:57:35 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 6:57:36 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 6:58:36 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 6:58:37 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 7:02:58 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 7:02:58 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 7:04:59 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 7:04:59 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 7:08:20 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 7:08:24 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/csj] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Feb 08, 2016 7:08:24 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/csj] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Feb 08, 2016 7:08:24 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/csj] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Feb 08, 2016 7:08:24 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/csj] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Feb 08, 2016 7:08:24 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/csj] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Feb 08, 2016 7:08:24 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/csj] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Feb 08, 2016 7:08:25 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 7:20:26 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 7:20:26 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:51:58 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:51:58 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:53:09 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:53:12 AM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/csj] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+Feb 08, 2016 9:53:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 1:01:06 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;.
+Feb 08, 2016 1:01:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Feb 08, 2016 1:01:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Feb 08, 2016 1:01:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1276 ms
+Feb 08, 2016 1:01:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Feb 08, 2016 1:01:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Feb 08, 2016 1:01:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Feb 08, 2016 1:01:08 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [503] milliseconds.
+Feb 08, 2016 1:01:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Feb 08, 2016 1:01:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Feb 08, 2016 1:01:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Feb 08, 2016 1:01:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Feb 08, 2016 1:01:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Feb 08, 2016 1:01:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Feb 08, 2016 1:01:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Feb 08, 2016 1:01:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1915 ms
+Feb 08, 2016 3:38:28 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Feb 08, 2016 3:38:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 3:38:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 4:19:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 4:19:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 5:30:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 5:30:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 5:35:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 5:35:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 8:06:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 8:06:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:04:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:04:01 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:12:22 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:12:23 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:14:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:14:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:22:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:22:46 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:25:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:25:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:26:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:26:48 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 9:31:59 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 9:32:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 10:39:17 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 10:39:18 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 10:56:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 10:56:13 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Feb 08, 2016 11:11:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Feb 08, 2016 11:11:27 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed

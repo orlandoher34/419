@@ -1,0 +1,1197 @@
+Mar 13, 2016 1:14:06 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 13, 2016 10:26:24 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 10:26:25 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:26:25 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-80"]
+java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Mar 13, 2016 10:26:25 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-80]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:80
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 17 more
+
+Mar 13, 2016 10:26:25 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:26:25 AM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Mar 13, 2016 10:26:25 AM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:406)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	... 16 more
+
+Mar 13, 2016 10:26:25 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 849 ms
+Mar 13, 2016 10:26:25 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 10:26:25 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 10:26:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 10:26:26 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [294] milliseconds.
+Mar 13, 2016 10:26:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 10:26:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 10:26:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 10:26:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 10:26:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 10:26:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 10:26:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 10:26:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 10:26:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 10:26:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 10:26:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 10:26:28 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 10:26:29 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 10:26:29 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3876 ms
+Mar 13, 2016 10:26:29 AM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:427)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:766)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:451)
+
+Mar 13, 2016 10:26:29 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:26:29 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:26:29 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 13, 2016 10:26:29 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:26:29 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:26:29 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:26:29 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:26:35 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 10:26:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:26:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:26:36 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 759 ms
+Mar 13, 2016 10:26:36 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 10:26:36 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 10:26:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 10:26:37 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [242] milliseconds.
+Mar 13, 2016 10:26:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 10:26:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 10:26:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 10:26:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 10:26:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 10:26:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 10:26:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 10:26:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 10:26:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 10:26:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 10:26:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 10:26:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 10:26:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:26:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:26:39 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3343 ms
+Mar 13, 2016 10:53:34 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 10:53:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:53:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:53:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 959 ms
+Mar 13, 2016 10:53:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 10:53:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 10:53:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 10:53:36 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [370] milliseconds.
+Mar 13, 2016 10:53:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 10:53:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 10:53:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 10:53:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 10:53:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 10:53:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 10:53:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 10:53:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 10:53:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 10:53:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 10:53:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 10:53:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 10:53:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 10:53:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 10:53:39 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 10:53:39 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4544 ms
+Mar 13, 2016 7:20:26 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 7:20:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 7:20:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 7:20:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 984 ms
+Mar 13, 2016 7:20:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 7:20:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 7:20:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 7:20:28 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [279] milliseconds.
+Mar 13, 2016 7:20:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 7:20:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 7:20:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 7:20:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 7:20:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 7:20:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 7:20:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 7:20:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 7:20:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 7:20:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 7:20:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 7:20:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 7:20:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 7:20:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 7:20:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 7:20:31 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4378 ms
+Mar 13, 2016 7:48:15 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 13, 2016 7:48:16 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 13, 2016 7:51:06 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 7:51:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 7:51:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 7:51:06 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 988 ms
+Mar 13, 2016 7:51:06 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 7:51:06 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 7:51:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 7:51:08 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [352] milliseconds.
+Mar 13, 2016 7:51:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 7:51:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 7:51:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 7:51:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 7:51:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 7:51:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 7:51:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 7:51:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 7:51:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 7:51:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 7:51:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 7:51:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 7:51:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 7:51:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 7:51:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 7:51:10 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4306 ms
+Mar 13, 2016 7:57:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 7:57:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 7:57:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 7:57:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 806 ms
+Mar 13, 2016 7:57:54 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 7:57:54 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 7:57:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 7:57:55 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [271] milliseconds.
+Mar 13, 2016 7:57:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 7:57:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 7:57:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 7:57:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 7:57:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 7:57:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 7:57:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 7:57:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 7:57:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 7:57:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 7:57:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 7:57:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 7:57:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 7:57:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 7:57:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 7:57:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3945 ms
+Mar 13, 2016 8:01:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 8:01:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:01:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:01:13 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 780 ms
+Mar 13, 2016 8:01:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 8:01:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 8:01:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 8:01:14 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [286] milliseconds.
+Mar 13, 2016 8:01:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 8:01:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 8:01:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 8:01:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 8:01:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 8:01:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 8:01:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 8:01:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 8:01:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 8:01:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 8:01:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 8:01:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 8:01:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 8:01:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:01:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:01:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4239 ms
+Mar 13, 2016 8:10:56 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 8:10:56 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:10:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:10:57 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 820 ms
+Mar 13, 2016 8:10:57 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 8:10:57 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 8:10:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 8:10:58 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [231] milliseconds.
+Mar 13, 2016 8:10:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 8:10:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 8:10:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 8:10:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 8:10:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 8:10:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 8:10:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 8:11:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 8:11:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 8:11:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 8:11:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 8:11:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 8:11:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:11:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:11:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3793 ms
+Mar 13, 2016 8:14:34 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 13, 2016 8:14:35 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 13, 2016 8:14:45 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 8:14:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:14:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:14:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 897 ms
+Mar 13, 2016 8:14:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 8:14:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 8:14:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 8:14:47 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [338] milliseconds.
+Mar 13, 2016 8:14:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 8:14:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 8:14:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 8:14:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 8:14:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 8:14:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 8:14:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 8:14:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 8:14:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 8:14:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 8:14:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 8:14:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 8:14:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 8:14:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:14:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:14:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4391 ms
+Mar 13, 2016 8:25:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 8:25:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:25:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:25:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 889 ms
+Mar 13, 2016 8:25:54 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 8:25:54 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 8:25:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 8:25:55 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [236] milliseconds.
+Mar 13, 2016 8:25:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 8:25:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 8:25:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 8:25:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 8:25:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 8:25:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 8:25:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 8:25:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 8:25:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 8:25:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 8:25:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 8:25:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 8:25:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 8:25:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 8:25:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3916 ms
+Mar 13, 2016 8:36:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 13, 2016 8:36:00 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 13, 2016 8:59:43 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 13, 2016 8:59:44 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 13, 2016 9:00:10 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 9:00:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 9:00:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 9:00:10 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 875 ms
+Mar 13, 2016 9:00:10 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 9:00:10 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 9:00:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 9:00:11 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [287] milliseconds.
+Mar 13, 2016 9:00:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 9:00:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 9:00:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 9:00:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 9:00:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 9:00:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 9:00:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 9:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 9:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 9:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 9:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 9:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 9:00:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 9:00:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 9:00:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 9:00:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 9:00:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4800 ms
+Mar 13, 2016 9:01:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;"C:\Java\jdk1.7.0_79\bin";"C:\Java\jdk1.7.0_79\bin";C:\PROGRA~2\Fiery\APPLIC~1\COMMON~1\EFI;C:\Program Files (x86)\RSA SecurID Token Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\PROGRA~2\COMMON~1\EFI;C:\PROGRA~2\COMMON~1\EFI\EFIES-~1;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 ;.
+Mar 13, 2016 9:01:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 9:01:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 9:01:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 827 ms
+Mar 13, 2016 9:01:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 13, 2016 9:01:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.34
+Mar 13, 2016 9:01:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ajax-my-app
+Mar 13, 2016 9:01:51 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [254] milliseconds.
+Mar 13, 2016 9:01:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#3
+Mar 13, 2016 9:01:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\Ass#4
+Mar 13, 2016 9:01:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\bestdeal_OLD
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\csj
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\docs
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\examples
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core_rt is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/core is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt_rt is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/fmt is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/functions is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/permittedTaglibs is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/taglibs/standard/scriptfree is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql_rt is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/sql is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/sql is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml_rt is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jstl/xml is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://java.sun.com/jsp/jstl/xml is already defined
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\host-manager
+Mar 13, 2016 9:01:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-examples
+Mar 13, 2016 9:01:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\jsp-to-servlet-to-jsp
+Mar 13, 2016 9:01:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\manager
+Mar 13, 2016 9:01:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\mvc
+Mar 13, 2016 9:01:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\New folder
+Mar 13, 2016 9:01:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\ROOT
+Mar 13, 2016 9:01:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\tmp
+Mar 13, 2016 9:01:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\user
+Mar 13, 2016 9:01:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\apache-tomcat-7.0.34\webapps\UserIO
+Mar 13, 2016 9:01:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-80"]
+Mar 13, 2016 9:01:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 13, 2016 9:01:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3698 ms

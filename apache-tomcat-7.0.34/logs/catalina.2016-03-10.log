@@ -1,0 +1,14 @@
+Mar 10, 2016 10:38:39 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 10, 2016 10:38:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 10, 2016 11:01:31 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 10, 2016 11:01:32 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
+Mar 10, 2016 11:22:11 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/csj]
+Mar 10, 2016 11:22:11 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] has started
+Mar 10, 2016 11:22:12 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/csj] is completed
